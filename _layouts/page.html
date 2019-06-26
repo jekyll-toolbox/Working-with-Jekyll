@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- layout: page | include header.html -->
+{% include component/header.html %}
+<!-- layout: page | include header.html DONE -->
+
+<body>
+    <!-- layout: page | include navbar.html -->
+    {% include component/navbar.html %}
+    <!--l ayout: page | include navbar.html DONE -->
+
+    <!-- layout: page | add content -->
+    {{ content }}
+    <!-- layout: page | add content DONE -->
+
+    <!-- layout: page | include footer.html -->
+    {% include component/footer.html %}
+    <!-- layout: page | include footer.html DONE -->
+
+    <!-- layout: page | include scripts.html -->
+    {% include component/scripts.html %}
+    <!-- layout: page | include scripts.html DONE -->
+</body>
+
+</html>
